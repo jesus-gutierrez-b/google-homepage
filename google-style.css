@@ -27,3 +27,13 @@ li a:hover {
 li.right {
     float: right;
 }
+
+#bottom-bar{
+    background-color: #efefef;
+    position: relative;
+    top: 376px;
+}
+
+li a.bottom {
+    color: #444444;
+}
