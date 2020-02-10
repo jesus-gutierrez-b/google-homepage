@@ -8,6 +8,12 @@ ul {
     padding: 0;
 }
 
+#bottom-bar {
+    background-color: #efefef;
+    position: relative;
+    top: 355px;
+}
+
 li {
     display: inline-block;
     margin: 10px;
@@ -28,12 +34,14 @@ li.right {
     float: right;
 }
 
-#bottom-bar{
-    background-color: #efefef;
-    position: relative;
-    top: 376px;
-}
-
 li a.bottom {
     color: #444444;
+}
+
+#page-center {
+    position: relative;
+    top: 122px;
+    margin: auto;
+    width: 22%;
+
 }
