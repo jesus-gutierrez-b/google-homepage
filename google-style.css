@@ -10,6 +10,20 @@ body {
     height: 100%
 }
 
+header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -18,8 +32,6 @@ ul {
 
 #bottom-bar {
     background-color: #efefef;
-    position: relative;
-    top: 355px;
 }
 
 li {
