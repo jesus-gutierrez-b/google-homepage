@@ -17,31 +17,16 @@ header{
     width: 100%;
 }
 
-footer{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#bottom-bar {
-    background-color: #efefef;
-}
-
 li {
     display: inline-block;
     margin: 10px;
     padding: 1px;
-}
-
-li.right {
-    float: right;
 }
 
 li a {
@@ -54,11 +39,29 @@ li a:hover {
     text-decoration: underline;
 }
 
-li a.bottom {
-    color: #444444;
+li.right {
+    float: right;
 }
 
-#page-center {
+main{
     position: relative;
-    margin: auto;
+    margin: 0 auto;
+    top: 21%;
+    width: 275px;
+    height: 192px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#bottom-bar {
+    background-color: #efefef;
+}
+
+li a.bottom {
+    color: #444444;
 }
