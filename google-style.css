@@ -51,6 +51,10 @@ main{
     height: 192px;
 }
 
+#logo{
+    width: 272px;
+}
+
 footer{
     position: absolute;
     bottom: 0px;
