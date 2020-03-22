@@ -47,8 +47,8 @@ main{
     position: relative;
     margin: 0 auto;
     top: 21%;
-    width: 275px;
-    height: 192px;
+    width: 543px;
+    height: 202px;
 }
 
 #logo{
@@ -58,6 +58,12 @@ main{
 
 #search-form{
     text-align: center;
+}
+
+input[name="search-box"]{
+    width: 527px;
+    height: 34px;
+    border-radius: 30px;
 }
 
 footer{
