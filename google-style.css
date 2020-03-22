@@ -56,6 +56,10 @@ main{
     margin: 0 auto;
 }
 
+#search-box{
+    text-align: center;
+}
+
 footer{
     position: absolute;
     bottom: 0px;
